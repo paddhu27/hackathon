@@ -12,33 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/*<div className="form-group">
-          <label htmlFor="gender" className="form-label">Gender</label>
-          <div>
-            <div>
-              <input type="radio" name="gender" value="male" onChange={onChangeHandler} checked={formData.gender === 'male'} />
-              <label htmlFor="male">Male</label>
-            </div>
-            <div>
-              <input type="radio" name="gender" value="female" onChange={onChangeHandler} checked={formData.gender === 'female'} />
-              <label htmlFor="female">Female</label>
-            </div>
-            <div>
-              <input type="radio" name="gender" value="other" onChange={onChangeHandler} checked={formData.gender === 'other'} />
-              <label htmlFor="other">Other</label>
-            </div>
-          </div>
-        </div>
-        <div className="form-group">
-          <label htmlFor="gender" className="form-label">Your Coding Experience</label>
-          <div>
-          <select>
-            <option value="Beginner">Basic</option>
-            <option value="Moderate">Intermediate</option>
-            <option value="Talented">Talented</option>
-          </select>
-          </div>
-        </div>*/
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
