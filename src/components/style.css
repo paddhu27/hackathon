@@ -2,19 +2,29 @@ body{
     
     background: linear-gradient(to right, #2c3e50, #bdc3c7); 
 }
-.form{
-    display: flex;
 
-}
 .form{
     background-color: white;
     border-radius: 5px;
     width: 800px;
-    height: 450px;
+    height: 600px;
     margin: 20px auto;
     padding: 20px;
-    margin-top: 100px;
-    font: size 25px;
+    margin-top:50px;
+    font: size 20px;
+}
+.card{
+  background-color: rgb(248, 163, 224);
+  border-radius: 5px;
+  width: 400px;
+  height: 360px;
+  margin: 20px auto;
+  padding: 20px;
+  margin-top:50px;
+  font: size 5px;
+}
+.head{
+  text-align: left;
 }
 
 .form-body{
@@ -25,7 +35,9 @@ body{
         margin-left: 0px;
         size: 500px;
 }
-    
+  .head{
+    margin-left: 0px;
+  }
 
 .footer{
    font-size: medium;
@@ -40,30 +52,34 @@ body{
 .form-body > *{
     padding: 5px;
 }
-.btn {
-    background-color: white;
-    color: black;
-    border: 2px solid #0d5bed; 
-    border-radius: 4px;
-    width: 30%;
-    font-size: large;
-  }
+
+    .btn {
+      color: #fff;
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+  
   .btn{
     transition-duration: 0.4s;
   }
-  .btn:hover {
+  /*.btn:hover {
     background-color: #0d5bed;
     color: white;
     width: 35%;
     border-radius: 6px;
-  }
+  }*/
 
 .form__label{
     width: 40%;
 }
 
 .form__input{
-    width: 50%;
+    width: 30%;
     border-radius: 4px;
 }
 
