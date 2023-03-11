@@ -1,4 +1,4 @@
-/*body{
+body{
     
     background: linear-gradient(to right, #2c3e50, #bdc3c7); 
 }
@@ -71,14 +71,14 @@
     text-align: center;
     height: 250%;
 }
-*/
 
 
+/*
 .profile {
     margin: 5%;
     padding: 5% 400px;
     font-size: large;
-    /* text-align: center; */
+    text-align: center; 
   }
   
   .form-label {
@@ -152,3 +152,4 @@
     border-radius: 5px;
   }
 
+*/
